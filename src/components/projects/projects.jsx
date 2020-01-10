@@ -19,7 +19,7 @@ function template() {
           </tr>
 
           <tr className="text-center">
-            <td><input class="btn btn-danger" type="submit" value="Login" /> &nbsp;
+            <td><input class="btn btn-danger" type="submit" value="Login" onSubmit={this.sendData}/> &nbsp;
                             <input class="btn btn-info" type="reset" value="Cancel" /></td>
           </tr>
 
