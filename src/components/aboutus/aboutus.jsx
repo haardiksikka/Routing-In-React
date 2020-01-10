@@ -1,10 +1,11 @@
 import "./aboutus.css";
 import React from "react";
+import DropDown from '../Dropdown/Dropdown'
 
 function template() {
   return (
     <div className="aboutus">
-      <h1>aboutus</h1>
+      <DropDown></DropDown>
     </div>
   );
 };
