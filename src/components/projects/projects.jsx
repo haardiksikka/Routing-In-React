@@ -6,7 +6,7 @@ function template() {
     <div className="projects">
       <h1>Login</h1>
       <form onSubmit={this.onSub}>
-        <table className="table" cellSpacing="10" cellPadding="10">
+        <table className="table" >
           <tr>
             <td>Username</td>
             <td><input type="text" name="uname" onChange={this.onCh1} /> </td>

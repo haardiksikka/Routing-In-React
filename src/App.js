@@ -6,6 +6,7 @@ import AboutUs from './components/aboutus/aboutus';
 import ContactUs from './components/contactus/contactus';
 import Projects from './components/projects/projects';
 import Careers from './components/careers/careers';
+import ApiCall from './components/ApiCall/ApiCall'
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <li><Link to="/contactus">Contact Us </Link></li>
           <li><Link to="/login">Login </Link></li>
           <li><Link to="/careers">Careers </Link></li>
+          <li><Link to="/apicall"> Api Demo </Link></li>
         </ul>
     </nav>
     <hr/>
@@ -28,6 +30,7 @@ function App() {
         <Route exact path="/contactus" component={ContactUs}/>
         <Route exact path="/login" component={Projects}/>
         <Route exact path="/careers" component={Careers}/>
+        <Route exact path="/apicall" component={ApiCall}/>
     </Switch>
 
     </div>
